@@ -2371,7 +2371,7 @@
             this.dimensions.WIDTH];
         this.xPos = [];
         this.yPos = 0;
-        this.bumpThreshold = 0.5;
+        this.bumpThreshold = 0.9;
 
         this.setSourceDimensions();
         this.draw();
@@ -2519,9 +2519,9 @@
      * @enum {number}
      */
     Horizon.config = {
-        BG_CLOUD_SPEED: 0.4,
+        BG_CLOUD_SPEED: 0.7,
         BUMPY_THRESHOLD: .3,
-        CLOUD_FREQUENCY: .5,
+        CLOUD_FREQUENCY: .3,
         HORIZON_HEIGHT: 16,
         MAX_CLOUDS: 25
     };
