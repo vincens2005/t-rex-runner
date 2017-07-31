@@ -2562,11 +2562,11 @@ function Horizon(canvas, spritePos, dimensions, gapCoefficient) {
  * @enum {number}
  */
 Horizon.config = {
-  BG_CLOUD_SPEED: 0.2,
+  BG_CLOUD_SPEED: 0.5,
   BUMPY_THRESHOLD: .3,
   CLOUD_FREQUENCY: .5,
   HORIZON_HEIGHT: 16,
-  MAX_CLOUDS: 6
+  MAX_CLOUDS: 25
 };
 
 
