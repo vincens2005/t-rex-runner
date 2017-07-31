@@ -50,7 +50,8 @@ html, body {
   height: 150px;
   max-width: 600px;
   opacity: 1;
-  overflow: hidden;
+
+  
   position: absolute;
   top: 0;
   z-index: 2;
