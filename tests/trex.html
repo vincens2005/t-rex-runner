@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0,
                                  maximum-scale=1.0, user-scalable=no">
-  <title i18n-content="title">T-Rex Game</title>
+  <title i18n-content="title">There's no internet connection</title>
   <style>/* Copyright 2014 The Chromium Authors. All rights reserved.
    Use of this source code is governed by a BSD-style license that can be
    found in the LICENSE file. */
@@ -3534,7 +3534,14 @@ Horizon.prototype = {
       <img class="icon icon-offline" jseval="updateIconClass(this.classList, iconClass)" style="visibility: hidden;">
       <div id="main-message">
         <h1 i18n-content="heading">My Own T-Rex Game YEY!!!!</h1>
-        <p>Internet is connected, that does not mean Google Chrome can stop you playing this game :P.</p>
+        <p>Try:</p>
+        <ul>
+        <li>Checking the network cables, modem and router</li>
+        <li>Reconnecting to Wi-Fi</li>
+        <li>Turning off any firewalls you may have</li>
+        </ul><br><a href='https://tebahpla.github.io/home'>← Back</a>
+        
+
         <div class="error-code" jscontent="errorCode">THANKS GOOGLE FOR THIS GAME</div>
       </div>
     </div>
@@ -3731,7 +3738,7 @@ function LoadTimeData() {}
   expect(!loadTimeData, 'should only include this file once');
   loadTimeData = new LoadTimeData;
 })();
-</script><script>loadTimeData.data = {"details":"Details","errorCode":"ERR_INTERNET_DISCONNECTED","errorDetails":"The Internet connection has been lost.","fontfamily":"'Helvetica Neue', 'Lucida Grande', sans-serif","fontsize":"75%","heading":"Unable to connect to the Internet","hideDetails":"Hide details","iconClass":"icon-offline","language":"en","primaryParagraph":"Google Chrome can’t display the webpage because your computer isn’t connected to the Internet.","suggestions":[],"summary":{"failedUrl":"https://www.facebook.com/","hostName":"www.facebook.com","msg":"You can try to diagnose the problem by taking the following steps:\n          \u003Cbr />\n          Go to\n          \u003Cstrong>\n          Applications > System Preferences > Network > Assist me\n          \u003C/strong>\n          to test your connection.","productName":"Google Chrome"},"textdirection":"ltr","title":"https://www.facebook.com/ is not available"};</script><script>// Copyright (c) 2012 The Chromium Authors. All rights reserved.
+</script><script>loadTimeData.data = {"details":"Details","errorCode":"ERR_INTERNET_DISCONNECTED","errorDetails":"The Internet connection has been lost.","fontfamily":"'Helvetica Neue', 'Lucida Grande', sans-serif","fontsize":"75%","heading":"There is no Internet connection","hideDetails":"Hide details","iconClass":"icon-offline","language":"en","primaryParagraph":"Google Chrome can’t display the webpage because your computer isn’t connected to the Internet.","suggestions":[],"summary":{"failedUrl":"https://oogle.gq/","hostName":"www.oogle.gq","msg":"You can try to diagnose the problem by taking the following steps:\n          \u003Cbr />\n          Go to\n          \u003Cstrong>\n          Applications > System Preferences > Network > Assist me\n          \u003C/strong>\n          to test your connection.","productName":"Google Chrome"},"textdirection":"ltr","title":"https://www.facebook.com/ is not available"};</script><script>// Copyright (c) 2012 The Chromium Authors. All rights reserved.
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
@@ -3891,4 +3898,6 @@ L.prototype.b=function(a,b){var c=X(b),e=c.jsdisplay;if(e){if(!w(a,e,b)){p(b);re
 h))}if(e=c.jseval){d=0;for(f=e.length;d<f;++d)w(a,e[d],b)}e=c.jsskip;if(!e||!w(a,e,b))if(c=c.jscontent){if(c=""+w(a,c,b),b.innerHTML!=c){for(;b.firstChild;)e=b.firstChild,e.parentNode.removeChild(e);b.appendChild(this.j.createTextNode(c))}}else{c=W(this);for(e=b.firstChild;e;e=e.nextSibling)e.nodeType==1&&c.push(this.e,a,e);c.length&&V(this,c)}};function X(a){if(a.__jstcache)return a.__jstcache;var b=a.getAttribute("jstcache");if(b)return a.__jstcache=N[b];return T(a)}
 function Y(a,b){var c=document;if(b){var e=c.getElementById(a);if(!e){var e=b(),d=H,f=c.getElementById(d);if(!f)f=c.createElement(J),f.id=d,p(f),f.style.position="absolute",c.body.appendChild(f);d=c.createElement(J);f.appendChild(d);d.innerHTML=e;e=c.getElementById(a)}c=e}else c=c.getElementById(a);return c?(S(c),c=c.cloneNode(!0),c.removeAttribute(K),c):i}function Z(a,b,c){c==b.length-1?a.setAttribute(G,I+c):a.setAttribute(G,""+c)};window.jstGetTemplate=Y;window.JsEvalContext=s;window.jstProcess=function(a,b){var c=new L;S(b);c.j=b?b.nodeType==9?b:b.ownerDocument||document:document;var e=l(c,c.e,a,b),d=c.h=[],f=c.k=[];c.c=[];e();for(var h,g,j;d.length;)h=d[d.length-1],e=f[f.length-1],e>=h.length?(e=c,g=d.pop(),g.length=0,e.c.push(g),f.pop()):(g=h[e++],j=h[e++],h=h[e++],f[f.length-1]=e,g.call(c,j,h))};
 })()
-</script><script>var tp = document.getElementById('t');jstProcess(loadTimeData.createJsEvalContext(), tp);</script></body></html>
+</script><script>var tp = document.getElementById('t');jstProcess(loadTimeData.createJsEvalContext(), tp);</script>
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-58f14f9d42d58017"></script> 
+  </body></html>
